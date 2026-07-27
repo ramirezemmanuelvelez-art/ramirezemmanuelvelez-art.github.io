@@ -2,10 +2,10 @@ body{
     background-color: rgba(173, 163, 163, 0.575);
 }
 
-@media (max-width: 768px){
+
 div.galeria{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(1 1fr);
     gap: 30px;
     justify-items: center;
 }
@@ -21,7 +21,7 @@ div.foto img{
     height: 350px;
     object-fit: cover;
 }
-}
+
 
 .Subtitulo2{
     text-align: center;
