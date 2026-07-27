@@ -1,0 +1,142 @@
+body{
+    background-color: rgba(173, 163, 163, 0.575);
+}
+
+div.galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+div.foto{
+    text-align: center;
+    background-color: rgba(102, 96, 96, 0.422);
+    border: 5px solid rgba(102, 96, 96, 0.422);
+}
+
+div.foto img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+.Subtitulo2{
+    text-align: center;
+    font-size: 90px;
+    color: rgb(71, 48, 48);
+    letter-spacing: auto;
+}
+
+.Parrafo2{
+    text-align: justify;
+    font-size: larger;
+    padding: 10px;
+}
+
+div.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.izquierda{
+    width: 30%;
+    text-align: center;
+    font-size: auto;
+    background-color: gray;
+    border-radius: 5px;
+    height: auto;
+}
+
+div.derecha{
+    width: 70%;
+    text-align: center;
+    font-size: auto;
+    background-color: rgba(128, 128, 128, 0.273);
+    border-radius: 5px;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: auto;
+    font-style: italic;
+}
+
+header{
+    background-color: rgb(147, 147, 194);
+padding: 20px;
+}
+
+nav{
+    background-color: rgb(100, 87, 87);
+}
+.barra{
+    font-size: large;
+    background-color: rgba(142, 128, 128, 0.758);
+}
+
+hr{
+    border:1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor2{
+    background-color: rgb(177, 163, 168);
+    padding: 30px;
+    border-radius: 30px;
+}
+i,b{
+    font-size: xx-large;
+}
+
+.Subtitulo3{
+    font-size:auto;
+    text-align: center;
+    background-color: rgba(116, 104, 127, 0.775);
+    margin: 20px;
+    letter-spacing: 10px;
+}
+
+.tituloimagen{
+    font-size: 35px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.Parrafo3{
+    font-size: x-large;
+    text-align: center;
+}
+
+table{
+   
+    background-color: rgb(123, 123, 123);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Subtitulo4,td{
+
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Subtitulo4{
+    margin-top: 100px;
+   align-items: center;
+    background-color: rgb(104, 102, 99);
+    color: blank;
+    font-size: 50px;
+}
+td{
+    font-size: auto;
+}
